@@ -30,7 +30,7 @@ const Sidebar = () => {
             <BtnSideBar onClick={handle} text="Settings" className="" iconPath={iconSetting}></BtnSideBar>
             <BtnSideBar onClick={handle} text="Logout" className="" iconPath={iconLogout}></BtnSideBar>
             <div className="absolute bottom-20 flex flex-col items-center ">
-                <img className="w-15" src={iconDevelop.src} alt="" />
+                <img className="w-15" src={iconDevelop.src}/>
                 <label className="">Use our premium</label>
                 <label className="mb-4">features now!</label>
                 <BtnUpgrade onClick={handle} text="Upgrade Now" className=""></BtnUpgrade>
