@@ -10,7 +10,7 @@ export const Icon1: React.FC<iconProps> = ({ iconPath, className }) => {
 
   return (
     <div className={`flex items-center absolute left-0 rounded-md ${className}`}>
-      <img className="w-4 opacity-100" src={iconPath.src} alt="" />
+      <img className="w-4" src={iconPath.src} alt=""/>
     </div>
   );
 }; 
