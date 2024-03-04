@@ -9,7 +9,7 @@ interface iconProps {
 export const Icon1: React.FC<iconProps> = ({ iconPath, className }) => {
 
   return (
-    <div className={`flex items-center absolute left-0 rounded-md ${className}`}>
+    <div className={`flex items-center rounded-xl ${className}`}>
       <img className="w-4" src={iconPath.src} alt=""/>
     </div>
   );

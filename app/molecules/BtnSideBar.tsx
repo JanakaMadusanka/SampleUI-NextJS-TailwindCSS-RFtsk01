@@ -28,9 +28,9 @@ export const BtnSideBar: React.FC<SideBarProps> = ({ onClick, text, className, i
         <div className="flex relative top-10 w-full px-10">
 
             <Button1 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                    onClick={onClick} className={`pl-12 ${className}`} text={text}>
+                    onClick={onClick} btn1Class={`pl-12 ${className}`} text={text}>
                                 
-                <Icon1 iconPath={iconPath} className={`h-10 w-10 ml-10 px-3 ${hoverIcon ? "bg-violet-700" : ""}`}></Icon1>
+                <Icon1 iconPath={iconPath} className={`h-10 w-10 ml-10 px-3 absolute left-0 ${hoverIcon ? "bg-violet-700" : ""}`}></Icon1>
             </Button1>
         </div>
 

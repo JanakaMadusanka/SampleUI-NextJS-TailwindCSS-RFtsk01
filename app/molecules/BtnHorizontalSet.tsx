@@ -25,12 +25,12 @@ export const BtnHorizontalSet: React.FC<BtnHorizontalSetProps> = ({ onClick, tex
 
 
     return (
-        <div className="relative ml-5 top-10 w-70 ">
+        <div className="relative px-2 w-70 ">
 
             <Button1 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                    onClick={onClick} className={`h-12 p-16 bg-white ${className}`} text={text}>
+                    onClick={onClick} btn1Class={`h-12 p-16 bg-white ${className}`} text={text}>
                                 
-                <Icon1 iconPath={iconPath} className={`h-12 w-12 ml-2 mb-4 px-3 bg-pink-100 ${hoverIcon ? "bg-slate-500" : ""}`}></Icon1>
+                <Icon1 iconPath={iconPath} className={`h-12 w-12 ml-3 mb-6 px-3 bg-pink-100 absolute left-0 ${hoverIcon ? "bg-slate-500" : ""}`}></Icon1>
             </Button1>
         </div>
     );

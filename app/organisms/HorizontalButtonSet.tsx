@@ -13,7 +13,7 @@ const HorizontalButtonSet = () => {
     };
 
     return (
-        <div className='flex h-full ml-5 items-center'>
+        <div className='flex h-full px-6 items-center'>
             <BtnHorizontalSet onClick={handle} text="Accomodation" className="" iconPath={iconAccomadation}></BtnHorizontalSet>
             <BtnHorizontalSet onClick={handle} text="Transportation" className="" iconPath={iconTransportation}></BtnHorizontalSet>
             <BtnHorizontalSet onClick={handle} text="Beaches" className="" iconPath={iconBeach}></BtnHorizontalSet>
